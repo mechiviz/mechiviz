@@ -1,4 +1,10 @@
-# MechiViz
+<p align="center">
+<img src="https://github.com/user-attachments/assets/42110c43-c27b-449b-b039-bb3d5ad73f43" height="320" alt="logo">
+</p>
+
+
+---
+
 GPU-resident compute and visualization for interactive mechanistic interpretability 
 
 
