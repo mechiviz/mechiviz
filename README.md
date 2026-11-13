@@ -10,7 +10,11 @@
 
 MechiViz lets you watch and interrogate models live, at full scale. Model tensors are drawn directly from GPU memory with no copies made to the CPU.
 
-<img width="600" height="600" alt="output" src="https://github.com/user-attachments/assets/d529e3bc-a08e-4498-81e2-d37d475515a0" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fb6926fd-5f51-44cb-9ccd-d7d581d8c29d" width="49.5%">
+  <img src="https://github.com/user-attachments/assets/8fea512a-fc79-4583-8a7e-d3ff73d979ce" width="49.5%">
+</p>
+<img width="100%" alt="output" src="https://github.com/user-attachments/assets/d4a7b988-747c-4a3a-a62b-2aea7e7122a6" />
 
 
 - **Zero host round trip**: PyTorch / tinygrad tensors and fastplotlib graphics share the same GPU buffers
