@@ -1,4 +1,4 @@
-<a href="https://pypi.org/project/mechiviz/"><img src="https://img.shields.io/pypi/v/mechiviz.svg" alt="PyPI"></a>
+<img src="https://img.shields.io/pypi/v/mechiviz.svg?color=blue" alt="PyPI">
 <p align="center">
 <img src="https://github.com/user-attachments/assets/42110c43-c27b-449b-b039-bb3d5ad73f43" height="320" alt="logo">
 </p>
