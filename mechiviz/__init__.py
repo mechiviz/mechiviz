@@ -7,6 +7,7 @@ os.environ.setdefault("WGPU_LIB_PATH", str(_SO))
 
 from .shared import TorchTensorTexture, TinygradTensorTexture, TorchTensorBuffer
 from .device import install
+from .utils import style_config
 
 __version__ = "0.0.1"
 
