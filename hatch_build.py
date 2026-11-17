@@ -12,7 +12,9 @@ class CustomHook(BuildHookInterface):
 
         # fail loudly instead of silently building a wheel without the lib
         if not SO.exists():
-            raise FileNotFoundError(f"missing {SO}, copy the manylinux build there first")
+            raise FileNotFoundError(
+                f"missing {SO}, copy the manylinux build there first"
+            )
 
         # .so has no Python ABI dependence (loaded via cffi), so py3-none
         build_data["pure_python"] = False

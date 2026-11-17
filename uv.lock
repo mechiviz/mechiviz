@@ -1173,6 +1173,7 @@ dependencies = [
     { name = "numpy" },
     { name = "tinygrad" },
     { name = "torch" },
+    { name = "tqdm" },
     { name = "wgpu" },
 ]
 
@@ -1209,6 +1210,7 @@ requires-dist = [
     { name = "tinygrad" },
     { name = "torch" },
     { name = "torchvision", marker = "extra == 'examples'" },
+    { name = "tqdm", specifier = ">=4.70.1" },
     { name = "tqdm", marker = "extra == 'examples'" },
     { name = "wgpu", specifier = "==0.32.0" },
 ]

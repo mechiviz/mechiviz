@@ -25,6 +25,7 @@ dependencies = [
     "glfw",
     "torch",
     "cuda-python",
+    "tqdm>=4.70.1",
 ]
 
 [project.optional-dependencies]
